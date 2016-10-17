@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body  {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	background-color: #e6e6e3;
+}
+.twoColFixLtHdr #container {
+	width: 1065px;
+	margin: 15px auto 15px auto;
+	padding: 0px 15px 0px 15px;
+} 
+.twoColFixLtHdr #header {
+	background-color: #2b2b2b;
+	height: 30px;
+} 
+.twoColFixLtHdr #header2  {
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #000;
+}
+.twoColFixLtHdr #sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 150px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: inline;
+}
+.twoColFixLtHdr #mainContent {
+	margin: 0px 0px 0px 15px;
+	padding: 30px 15px 30px 15px;
+	float: right;
+	width: 870px;
+	display: inline;
+	background-color: #FFF;
+	border-bottom: 2px solid #000;
+} 
+.twoColFixLtHdr #footer {
+	font-size: x-small;
+	text-align: right;
+	letter-spacing: 0.04em;
+	clear: right;
+	margin: 0px;
+	color: #999;
+	padding-top: 0px;
+	line-height: 2em;
+} 
+.art_vertical {
+	width: 690px;
+	text-align: center;
+	display: inline-block;
+}
+.art_horizontal {
+	width: 870px;
+	text-align: center;
+	display: inline-block;
+}
+.text_right {
+	float: right;
+	width: 143px;
+	padding-top: 0px;
+	border-left: 2px solid #2b2b2b;
+	text-align: left;
+	padding-left: 15px;
+	margin-left: 0px;
+	display: inline-block;
+	margin-top: 0px;
+}
+.text_under {
+	width: 510px;
+	padding-top: 10px;
+	padding-left: 0px;
+	margin-left: 180px;
+	display: block;
+	margin-top: 30px;
+	border-top: 2px solid #666;
+}
+.rule_under_vertical {
+	width: 330px;
+	padding-top: 10px;
+	padding-left: 0px;
+	margin-left: 180px;
+	display: block;
+	margin-top: 30px;
+	border-top: 2px solid #666;
+}
+.text_heading {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #000;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.writing_body {
+	width: 510px;
+	font-family: "Times New Roman", Times, serif;
+	line-height: 1.4em;
+	font-size: medium;
+	margin-left: 90px;
+}
+.writing_body_indent {
+	margin-left: 30px;
+	width: 480px;
+	font-family: "Times New Roman", Times, serif;
+	line-height: 1.4em;
+	font-size: medium;
+}
+.writing_title  {
+	font-size: xx-large;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	line-height: 1em;
+} 
+.caption_category {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #000;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.caption_description {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: small;
+	line-height: 1.3em;
+	color: #666;
+	text-align: left;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.cover_small {
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.float_left {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.homepage_left {
+	float: left;
+	width: 330px;
+	margin-top: 0px;
+	margin-right: 30px;
+}
+.homepage_center {
+	float: left;
+	width: 330px;
+	margin-top: 0px;
+}
+.homepage_right {
+	margin-top: 0px;
+	float: right;
+	width: 150px;
+}
+.homepage_project {
+	margin-bottom: 25px;
+	color: #666;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: x-small;
+	line-height: 1.25em;
+}
+.homepage_project a {
+	text-decoration: none;
+}
+.homepage_category {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: #000;
+}
+#mainContent a:link{
+	color: #666;
+}
+#mainContent a:visited {
+	color: #666;
+}
+#mainContent a:hover {
+	color: #000;
+}
+.store_item {
+	border-top: 2px solid #666;
+	padding-top: 10px;
+}
+#sidebar1 a:link {
+	text-decoration: none;
+	color: #000;
+}
+#sidebar1 a:visited {
+	text-decoration: none;
+	color: #000;
+}
+#sidebar1 a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+#sidebar1 a:active {
+	text-decoration: none;
+	color: #000;
+}
+/* NOTE:
+ * This rule uses -moz-user-select and -khtml-user-select properties to prevent the
+ * user from selecting the text in the AccordionPanelTab. These are proprietary browser
+ * properties that only work in Mozilla based browsers (like FireFox) and KHTML based
+ * browsers (like Safari), so they will not pass W3C validation. If you want your documents to
+ * validate, and don't care if the user can select the text within an AccordionPanelTab,
+ * you can safely remove those properties without affecting the functionality of the widget.
+ */
+.AccordionPanelLink {
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	font-size: x-small;
+	color: #FFF;
+	border-top: 3px solid #e6e6e3;
+	letter-spacing: 0.1em;
+	margin: 0;
+	padding: 3px 0 3px 10px;
+	background-color: #333;
+	display: block;
+}

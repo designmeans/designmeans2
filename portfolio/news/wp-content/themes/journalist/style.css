@@ -1,0 +1,530 @@
+/*
+Theme Name: Journalist
+Theme URI: http://lucianmarin.com/
+Description: Journalist is a smart, minimal theme designed for professional journalists.
+Version: 1.9
+Author: <a href="http://lucianmarin.com/">Lucian E. Marin</a>
+Tags: white, two columns, fixed width, light, minimal
+For the WordPress community (GPL), enjoy it guys.
+by Lucian E. Marin - lucianmarin.com
+*/
+
+* {
+padding:0;
+margin:0;
+}
+
+h1 {
+font-size:30px;
+font-weight:normal;
+letter-spacing:-1px;
+width:620px;
+padding:30px 0 20px 0;
+}
+
+h1, p {
+float:left;
+width:620px;
+}
+
+#content h2 {
+font-size:20px;
+margin:5px 0 7px 0;
+padding:10px 0 0 0;
+width:620px;
+border-top:#bbb 6px solid;
+}
+
+#content h2.archive {
+font-size: small;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color:#1c1c1c;
+padding:0;
+margin:10px 0 20px 0;
+border:none;
+text-align:left;
+}
+
+.comments {
+font-size: 11px;
+color:#333;
+margin: 0 0 15px 0;
+padding-bottom: 5px;
+border-bottom: #bbb 1px solid;
+}
+
+.comments a {
+background:#fff;
+padding:0 7px 5px 0;
+color:#333;
+text-decoration:none;
+}
+
+.comments a:hover {
+color:#c00;
+}
+
+.navigation {
+background:#f9f9f9;
+font-size:11px;
+width:620px;
+padding:5px 0 10px 0;
+margin:0 0 20px 0;
+border-top:#bbb 1px solid;
+}
+
+.navigation a {
+color:#555;
+font-weight:bold;
+text-decoration:none;
+}
+
+.navigation a:hover {
+color:#333;
+text-decoration:none;
+}
+
+.main h3 {
+font-size:16px;
+font-weight:normal;
+margin:0 0 15px 0;
+}
+
+.main img {
+padding:4px;
+border:#ddd 1px solid;
+}
+
+.main a img {
+padding:4px;
+border:#ddd 1px solid;
+}
+
+.main a:hover img {
+padding:4px;
+border:#ddd 1px solid;
+}
+
+.main p {
+font-size:15px;
+line-height:20px;
+margin:0 0 15px 0;
+}
+
+.main ol {
+line-height:18px;
+margin:0 0 15px 30px;
+}
+
+.main ul {
+line-height:18px;
+margin:0 0 15px 30px;
+}
+
+.main li {
+margin:0 0 5px 0;
+}
+
+.group {
+margin-left:37px;
+}
+
+.meta {
+font-size:11px;
+line-height:15px;
+color:#333;
+width:600px;
+padding:5px 10px;
+margin:0 0 50px 0;
+border-top:#bbb 1px solid;
+}
+
+.signature {
+float:left;
+padding:0 15px 0 0;
+border-right:#bbb 1px solid;
+width:275px;
+}
+
+.tags p {
+float:left;
+padding:0 0 0 15px;
+width:275px;
+}
+
+#sidebar {
+font-size:12px;
+float:right;
+width: 143px;
+border-left: 2px solid #2b2b2b;
+padding:0 0 0 15px;
+margin:0;
+}
+
+#sidebar h3 {
+font-size:14px;
+margin:20px 0 5px 0;
+}
+
+#sidebar ul {
+list-style:none;
+}
+
+#sidebar ul ul {
+margin:5px 0 0 10px;
+}
+
+#sidebar ul ul ul {
+margin:5px 0 0 10px;
+}
+
+#sidebar ul li {
+padding:0 0 5px 0;
+}
+
+#author h3 {
+margin:5px 0 5px 0;
+}
+
+#searchform {
+margin:15px 0 0 0;
+}
+
+#searchform input {
+background:#222;
+font-size:11px;
+margin:2px 0;
+padding:1px 4px 2px 4px;
+border:#888 1px solid;
+color:#eee;
+}
+
+#searchform input:hover {
+background:#333;
+border:#999 1px solid;
+color:#fff;
+cursor:pointer;
+}
+
+#searchform #s {
+background:#f6f6f6;
+font-size:11px;
+margin:2px 0;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+#searchform #s:hover {
+border:#c00 1px solid;
+cursor:text;
+}
+
+input.searchfield {
+background:#f6f6f6;
+font-size:11px;
+display:block;
+margin:5px 0 8px 0;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+input.searchfield:hover {
+background:#eee;
+color:#222;
+}
+
+input.submit {
+background:#222;
+font-size:11px;
+display:block;
+margin:0 0 10px 0;
+padding:1px 4px 2px 4px;
+border:#888 1px solid;
+color:#eee;
+}
+
+input.submit:hover {
+background:#333;
+cursor:pointer;
+border:#999 1px solid;
+color:#fff;
+}
+
+input.subcom {
+background:#eee;
+font-size:11px;
+margin:0 0 10px 0;
+padding:1px 4px 2px 4px;
+border:#888 1px solid;
+color:#222;
+}
+
+input.subcom:hover {
+background:#222;
+cursor:pointer;
+border:#888 1px solid;
+color:#eee;
+}
+
+input.comment {
+background:#f6f6f6;
+font-size:11px;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+input.comment:hover {
+border:#c00 1px solid;
+}
+
+textarea {
+background:#f6f6f6;
+font-size:12px;
+width:200px;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+textarea:hover {
+border:#c00 1px solid;
+}
+
+.postinput small {
+font-size:11px;
+margin:0 0 0 5px;
+}
+
+p.logged {
+font-size:12px;
+}
+
+h3.reply {
+font-size:15px;
+margin:0 0 10px 0;
+}
+
+.nocomments {
+margin:0 0 30px 0;
+}
+
+ol.commentlist {
+font-size:12px;
+list-style:none;
+margin:10px 0 30px 0;
+border-bottom:#bbb 1px solid;
+}
+
+.commentlist li {
+border-top:#bbb 1px solid;
+padding:0 0 10px 0;
+}
+
+.commentlist li.bypostauthor {
+border-top:#bbb 5px solid;
+background-color:#f3f3f3;
+}
+
+.comment_mod {
+margin:10px 0 0 10px;
+}
+
+.comment_mod em {
+background-color:#fff897;
+padding:1px 3px;
+}
+
+.comment_author {
+margin:10px 0;
+float:right;
+width:190px;
+}
+
+.comment_author img {
+float:left;
+margin:5px 12px 0 0;
+}
+
+.comment_author p {
+line-height:20px;
+}
+
+.comment_author small {
+font-size:11px;
+}
+
+.comment_text {
+float:left;
+width:470px;
+margin:0 0 0 10px;
+}
+
+.comment_text p {
+line-height:18px;
+margin:7px 0;
+}
+
+.comment_meta {
+font-size:12px;
+}
+
+#commentform p {
+line-height:18px;
+margin:0 0 15px 0;
+}
+
+blockquote {
+background:url(../journalist%20-%20Copy/images/quote.gif) no-repeat top left;
+padding:0 0 0 60px;
+min-height:50px;
+}
+
+#footer {
+background:#eee;
+font-size:11px;
+color:#555;
+width:525px;
+margin:0;
+padding:10px;
+text-align:center;
+position:relative;
+border-top:#bbb 1px solid;
+border-bottom:#222 6px solid;
+}
+
+#footer a {
+color:#555;
+font-weight:bold;
+text-decoration:none;
+}
+
+#footer a:hover {
+color:#333;
+text-decoration:none;
+}
+
+.clear {
+clear:both;
+}
+
+.warning p {
+background:url(../journalist%20-%20Copy/images/warning.gif) no-repeat left;
+height:160px;
+padding:20px 0 0 90px;
+font-size:20px;
+margin:0 0 0 10px;
+}
+
+#wp-calendar {
+padding:10px 0 0 0;
+font-size:12px;
+}
+
+#wp-calendar caption {
+text-align:left;
+padding:0 0 5px 0;
+}
+
+#wp-calendar tr th,
+#wp-calendar tr td {
+padding:0 6px 0 0 ;
+text-align:right;
+}
+
+#wp-calendar td a {
+font-weight:bold;
+}
+
+#wp-calendar td a:hover {
+font-weight:bold;
+}
+
+img.wp-smiley {
+padding:0;
+border:none;
+}
+
+input:focus, textarea:focus{
+background-color:#ffc;
+}
+
+abbr {
+border:none;
+}
+
+.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.alignleft {
+float:left;
+}
+
+.alignright {
+float:right;
+}
+
+.wp-caption {
+border:1px solid #ddd;
+text-align:center;
+background-color:#f3f3f3;
+padding-top:4px;
+margin:10px;
+-moz-border-radius:3px;
+-khtml-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+}
+
+.wp-caption img {
+margin:0;
+padding:0;
+border:0 none;
+}
+
+.wp-caption-dd {
+font-size:11px;
+line-height:17px;
+padding:0 4px 5px;
+margin:0;
+}
+
+/* self-clear floats */
+
+.group:after {
+content: "."; 
+display: block;
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+/* IE Hacks */
+
+*html #bubble {
+display:none;
+}
+
+*html #bubble p {
+display:none;
+}
+
+* html .group,
+* html #nav ul li a {
+height: 1%;
+}
+
+*:first-child+html .group {
+min-height: 1px;
+}
+
+* html #nav ul li a {
+display: inline;
+}
