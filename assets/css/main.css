@@ -944,6 +944,7 @@ footer {
 }
 .text-nowrap {
   white-space: nowrap; 
+  display: inline-block;
 }
 .bio_logo_medium img {
   display: inline;
