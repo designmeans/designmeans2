@@ -950,8 +950,8 @@ footer {
   vertical-align: -0.13em;
   max-height: 6em;
   width: 300px;
-  margin-left: 10px;
-  margin-right: -10px;
+  margin-left: 12px;
+  margin-right: 3px;
 }
 @media only screen and (max-width: 767px) {
   .bio_logo_medium img {
@@ -960,7 +960,7 @@ footer {
     max-height: 6em;
     width: 175px;
     margin-left: 10px;
-    margin-right: -5px;
+    margin-right: 2px;
   }
 }
 .bio_logo_matter img {
@@ -968,7 +968,7 @@ footer {
   vertical-align: -0.05em;
   max-height: 6em;
   width: 200px;
-  margin-right: -20px;
+  margin-right: -10px;
 }
 @media only screen and (max-width: 767px) {
   .bio_logo_matter img {
@@ -977,7 +977,7 @@ footer {
     max-height: 6em;
     width: 135px;
     margin-left: 3px;
-    margin-right: -12px;
+    margin-right: -6px;
   }
 }
 .bio_logo_matter_sp img {
@@ -1000,7 +1000,7 @@ footer {
   vertical-align: -0.05em;
   max-height: 6em;
   width: 200px;
-  margin-right: -12px;
+  margin-right: 1px;
 }
 @media only screen and (max-width: 767px) {
   .bio_logo_matter_apostrophe img {
@@ -1009,7 +1009,7 @@ footer {
     max-height: 6em;
     width: 135px;
     margin-left: 3px;
-    margin-right: -8px;
+    margin-right: 0px;
   }
 }
 .bio_logo_nyt img {
@@ -1017,7 +1017,7 @@ footer {
   vertical-align: middle;
   max-height: 6em;
   width: 470px;
-  margin-right: -12px;
+  margin-right: -1px;
 }
 @media only screen and (max-width: 767px) {
   .bio_logo_nyt img {
@@ -1026,7 +1026,7 @@ footer {
     max-height: 6em;
     width: 295px;
     margin-left: 3px;
-    margin-right: -8px;
+    margin-right: -2px;
   }
 }
 .bio_logo_newsweek img {
@@ -1053,7 +1053,7 @@ footer {
   max-height: 6em;
   width: 240px;
   margin-left: -6px;
-  margin-right: -10px;
+  margin-right: 5px;
 }
 @media only screen and (max-width: 767px) {
   .bio_logo_beast img {
@@ -1062,14 +1062,13 @@ footer {
     max-height: 6em;
     width: 160px;
     margin-left: -1px;
-    margin-right: -5px;
+    margin-right: 4px;
   }
 }
 .bio_logo_pentagram img {
   display: inline;
   vertical-align: -0.2em;
   width: 290px;
-  margin-right: -12px;
 }
 @media only screen and (max-width: 767px) {
   .bio_logo_pentagram img {
@@ -1078,14 +1077,14 @@ footer {
     max-height: 6em;
     width: 175px;
     margin-left: 3px;
-    margin-right: -8px;
+    margin-right: 1px;
   }
 }
 .bio_logo_propublica img {
   display: inline;
   vertical-align: -0.4em;
   width: 180px;
-  margin-right: -12px;
+  margin-right: 2px;
 }
 @media only screen and (max-width: 767px) {
   .bio_logo_propublica img {
@@ -1094,7 +1093,7 @@ footer {
     max-height: 6em;
     width: 100px;
     margin-left: 3px;
-    margin-right: -6px;
+    margin-right: 2px;
   }
 }
 .bio_logo_pulitzer img {
